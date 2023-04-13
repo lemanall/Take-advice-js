@@ -11,14 +11,7 @@ function App() {
     const { advice } = data.slip;
     setAdvice(advice);
 
-    // const randomNum = +(Math.floor(Math.random() * 101) + 1);
-    // console.log(randomNum);
-    // if (randomNum === data.slip.id) {
-    //   setAdvice(data.slip);
-    //   console.log(data.slip);
-    // }
-  };
-
+  
   return (
     <div className="app">
       <div className="card">
